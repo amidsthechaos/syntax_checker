@@ -1,0 +1,37 @@
+Analysis for file: 8.c
+Line 1: #include <stdio.h>
+Line 2:   
+Line 3: int main() { 
+Line 4:     int num,                              
+Line 5:     Line 6:     printf("Enter a number: ")
+Line 7:     scanf("%d", &num);
+Line 8:     int c = num;  Store original number for reversal
+Line 9:     Line 10:     while (c > 0) 
+Line 11:         digit = c % 10; Line 12:         sum += digit;       Line 13:         reverse = reverse * 10 + digit; Line 14:         c /= 10;         Line 15:     }
+Line 16:     Line 17:     printf(Sum of digits: %d\n", sum);
+Line 18:     prinf("Reversed number: %d\n", reverse);
+Line 19:     retun 0;
+Line 20: }
+Error: Mismatched brackets detected.
+Line 3: Found keyword 'int'
+Line 4: Found keyword 'int'
+Line 6: Found keyword 'int'
+Line 8: Found keyword 'int'
+Line 8: Found keyword 'for'
+Line 10: Found keyword 'while'
+Line 17: Found keyword 'int'
+Number of functions: 1
+Number of function prototypes: 0
+Line 6: Contains a print function
+Line 7: Contains a scan function
+Line 17: Contains a print function
+Number of variables: 5
+Line 1: Missing semicolon
+Line 2: Missing semicolon
+Line 4: Missing semicolon
+Line 5: Missing semicolon
+Line 6: Missing semicolon
+Line 9: Missing semicolon
+Line 16: Missing semicolon
+Cyclomatic Complexity: 3
+
